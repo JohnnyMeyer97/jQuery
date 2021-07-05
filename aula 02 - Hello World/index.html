@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1</title>
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>  Remotamente -->
+    <script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script> <!-- Localmente -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("a").click(function(){
+                $("#titulo").css("color", "#0000ff");
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1 id="titulo">Hello World!</h1>
+    <a href="#">Executar JavaScript</a>
+</body>
+</html>
